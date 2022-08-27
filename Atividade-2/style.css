@@ -1,0 +1,126 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f2e9e4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 29.3%;
+    margin: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 10px 10px 0px 0px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.p1 {
+text-align: center;
+}
+
+.p1-text { 
+color: #8d8d97;
+    line-height: 25px;
+    font-size: 14px;
+    font-size: 1vw;
+    max-width: 100%;
+   max-height: 100%; 
+}
+
+.plan-box {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(241, 240, 246) ;
+    border-radius: 10px;
+    border-width: 5px;
+ background-color: rgb(241, 240, 246);
+}
+
+.svg {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;    
+}
+
+.foto {
+    width: 30%;
+}
+
+.change {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 5%;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    color: rgb(56, 4, 224);
+}
+
+.change:hover {
+    color: rgb(123, 103, 187) ;
+}
+
+.plan-text {
+    margin-left: 12px;
+    font-size: 1vw;
+}
+
+.price {
+    color: #8d8d97;
+   font-size: 25px;
+}
+
+.plan {
+margin-bottom: 0;
+}
+
+.price {
+margin-top: 10px;
+font-size: 1vw;
+}
+
+.payment-box {
+    cursor: pointer;
+    margin-top: 10%;
+    border: 1px solid rgb(56, 4, 224);
+    border-radius: 15px;
+    background-color: rgb(56, 4, 224);
+}
+
+.payment-box:hover {
+    background-color: rgb(123, 103, 187);
+    border: 1px solid rgb(123, 103, 187); 
+}
+
+.payment-text {
+    color: #fff;
+}
+
+.order {
+    color: #8d8d97;
+    cursor: pointer;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 1vw;  
+}
+
+.order:hover {
+    color: black;
+}
+
+/* payment box rgb(123, 103, 187); 
+ cancel order  rgb(127, 107, 193)*/ 
